@@ -76,16 +76,9 @@ nav ul li a {
 }
 
 
-
-
-
-
-/* DESKTOP */
+/* MOBILE */
 .grid-container {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-
-    min-height: 60dvh;
     gap:none;
     height: 100%;
     grid-template-areas:
@@ -93,13 +86,49 @@ nav ul li a {
     "aside"
     "main"
     "foot";
+    
+    grid-template-rows: auto auto 1fr auto;
+
 }
 
-{
-max-width: 1280px;
+.head {
+    grid-area: head;
+    background-color:rgb(22, 43, 22);
+    padding: 10px 0;
+}
+
+.side {
+    grid-area: aside;
+    background-color: rgb(66, 77, 66);
+}
+
+.main {
+    grid-area:main;
+    background-color:rgb(66, 77, 66)
+}
+
+.side-right {
+    display: none;
+    grid-area: side-right;
+    background-color:rgb(66, 77, 66);
+}
+
+.box {
+    border-radius: 5px;
+    border: 2px solid black;
+    min-height: 80px;
+}
+
+.card-grid {
     display: grid;
-    gap: 1px;
-    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax (200px, 1fr));
+    gap: 1rem;
+}
+
+.card-body p {
+    font-size. 0.9rem;
+    line-height: 1.4;
+    color: white;
 }
 
 #logo {
@@ -122,7 +151,7 @@ max-width: 1280px;
 }
 
 
-/* tablet */
+/* TABLET */
 @media(min-width:600px) {
     .grid-container {
         min-height: 0;
@@ -136,6 +165,7 @@ max-width: 1280px;
     }
 }
 
+/* DESKTOP
 @media (min-width: 968px) {
     .side-right{
         display: block;
