@@ -13,7 +13,6 @@ En startsida där man hittar information om:
 
 ## Tekniker
 * HTML
-* JavaScript
 * CSS
 * CSS Grid
 
