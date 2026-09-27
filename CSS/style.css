@@ -130,7 +130,6 @@ nav ul li a {
         "card-grid1 card-grid2 card-grid3";
     }
 
-
     .grid-container h2 {
         grid-area: h2;
     }
@@ -146,7 +145,6 @@ nav ul li a {
     .card-grid3 {
         grid-area: card-grid3;
     }
-
 
     nav ul {
         flex-direction:row;
@@ -168,7 +166,6 @@ nav ul li a {
         max-width: 1000px;
         margin: 0 auto;
     }
-
 }
 
 /* TABLET */
@@ -211,10 +208,9 @@ footer {
 }
 
 .kontakt-footer {
-    padding-bottom: 1rem;
+    padding-bottom: 1rem; 
 }
 
-/* NAV-FOOTER */
 footer nav ul {
     display: flex;
     list-style-type: none;
