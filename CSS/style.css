@@ -99,7 +99,7 @@ nav ul li a {
 .side-wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 
+    grid-template-areas: 
     "aside"
     "aside-button";
     padding: 10px 15px;
@@ -122,8 +122,6 @@ nav ul li a {
     height: 100%;
     padding: 20px 30px;
 }
-
-
 
 /* FOOTER */
 footer {
@@ -213,7 +211,7 @@ footer nav ul li a {
     .side-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 
+        grid-template-areas: 
         "aside aside-button";
         padding: 10px 15px;
     }
@@ -280,4 +278,3 @@ footer nav ul li a {
         justify-content: flex-end;
     }
 }
-
