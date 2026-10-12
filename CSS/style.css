@@ -167,7 +167,11 @@ footer {
 /* KONTAKT */
 .kontakt-footer {
     grid-area: kontakt-footer;
-    padding-bottom: 1rem;
+    font-size: 1.2em;
+}
+
+.kontakt-footer h2 {
+    font-size: 1.4em;
 }
 
 /* NAVIGATION */
@@ -182,7 +186,7 @@ footer nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    gap: 20px;
+    gap: 10px;
 }
 
 footer nav ul li a {
